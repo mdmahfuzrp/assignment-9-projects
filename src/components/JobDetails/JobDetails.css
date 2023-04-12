@@ -1,0 +1,101 @@
+.details-hero{
+    min-height: 180px;
+    background-image: url('https://github.com/mdmahfuzrp/futurehub-img/blob/main/All%20Images/Vector.png?raw=true');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.details-hero h1{
+    margin-bottom: 0;
+}
+.details-hero a{
+    text-decoration: none;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.449);
+    transition: .2s;
+}
+.details-hero a:hover{
+    color: black;
+}
+
+.details-hero a span{
+    font-size: 16px;
+    margin-right: 2px;
+    color: red;
+    transition: .2s;
+}
+.details-hero a:hover span{
+    margin-right: 7px;
+}
+.details-hero .section-title{
+    font-size: 44px;
+    font-weight: 600;
+    color: #757575;
+}
+#details-hero{
+    background-color: rgba(255, 0, 0, 0.104);
+}
+.left-info p{
+    font-size: 16px;
+    color: #757575;
+    font-weight: 400;
+}
+.left-info .first-p{
+    margin-bottom: 24px;
+}
+.left-info strong{
+    font-size: 16px;
+    color: #1A1919;
+    font-weight: 600;
+}
+.left-info div{
+    display: flex;
+    flex-direction: column;
+}
+.left-info .first-div{
+    margin: 24px 0 10px 0;
+}
+.left-info div strong{
+    margin-bottom: 10px;
+}
+.right-info{
+    border-radius: 20px;
+}
+.right-info .btn{
+    width: 100%;
+    margin-top: 10px;
+}
+.right-info .default h1{
+    font-size: 18px;
+    color: #1A1919;
+    margin-bottom: 15px;
+}
+.right-info .default p{
+    font-size: 16px;
+    color: #757575;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    letter-spacing: .5px;
+}
+.right-info .default p span{
+    color: red;
+    font-size: 16px;
+    margin-right: 5px;
+}
+.right-info .default p strong{
+    font-weight: 500;
+    color: #1A1919;
+    margin-right: 5px;
+}
+.right-info .job-details-info{
+    margin-bottom: 20px;
+}
+#go-back{
+    background-color: none !important;
+}

@@ -1,0 +1,16 @@
+#job-category{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 8px;
+}
+#job-category h3{
+    font-size: 20px;
+    color: #474747;
+    padding: 25px 0 0 0;
+}
+#job-category p{
+    font-size: 16px;
+    color: #A3A3A3;
+}

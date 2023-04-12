@@ -1,0 +1,13 @@
+#chart-parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+#chart-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -50px;
+    margin-top: 50px;
+}

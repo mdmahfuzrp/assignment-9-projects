@@ -1,0 +1,21 @@
+.navbar-brand{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight:600;
+}
+.navbar-brand span{
+    color: red;
+}
+Nav a{
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: red;
+    text-decoration: none;
+    margin: 5px;
+}
+Nav a:hover{
+    color: white;
+    background-color: red;
+    padding: 7px 15px;
+    border-radius: 5px;
+}

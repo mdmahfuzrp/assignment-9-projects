@@ -1,0 +1,8 @@
+.feature-job-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.feature-job-section .row{
+    justify-content: center;
+}

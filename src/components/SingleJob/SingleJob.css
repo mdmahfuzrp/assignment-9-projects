@@ -1,0 +1,35 @@
+#singleJob h3 {
+    font-size: 24px;
+    color: #474747;
+    margin: 30px 0 5px 0;
+}
+#singleJob p{
+    font-size: 18px;
+    color: #757575;
+    font-weight: 400;
+}
+#singleJob .button-grp{
+    margin: 16px 0;
+}
+#singleJob .button-grp button{
+    border: 1px solid #757575;
+    background-color: transparent;
+    outline: none;
+    border-radius: 5px;
+    color: #757575;
+    font-size: 15px;
+    padding: 5px 10px;
+    cursor:default;
+}
+#singleJob .p-grp{
+    display: flex;
+    align-items: center;
+}
+#singleJob .p-grp p:first-child{
+    margin-right: 20px;
+}
+#singleJob .p-grp p span{
+    font-size: 17px;
+    margin-right: 5px;
+    color: rgba(255, 0, 0, 0.515);
+}

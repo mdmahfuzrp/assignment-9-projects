@@ -1,0 +1,44 @@
+#applied-singleJob{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgba(128, 128, 128, 0.344);
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 0 25px;
+}
+#applied-mid-area h3{
+    font-size: 20px;
+}
+#applied-company-img{
+    background-color: rgba(128, 128, 128, 0.185);
+    min-height: 150px;
+    min-width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.applied-button-grp{
+    margin: 10px 0 20px 0;
+}
+.applied-button-grp button{
+    border: 1px solid gray;
+    background: transparent;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+#filter-btn{
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 6px 10px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#go-back{
+    background-color: none !important;
+}

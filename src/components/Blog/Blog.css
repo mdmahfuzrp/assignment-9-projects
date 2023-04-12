@@ -1,0 +1,79 @@
+.faq-container{
+    margin: 30px 0 30px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.faq{
+    margin-bottom: 3px;
+}
+details {
+    background-color: tomato;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+summary {
+    padding: .5em 1.3rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+    cursor: pointer;
+}
+
+summary:after {
+    content: "\002B";
+    font-size: 30px;
+    height: 15px;
+    margin-top: -10px;
+    cursor: pointer;
+}
+
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: .5em;
+    cursor: pointer;
+}
+
+details[open] summary:after {
+    content: "\00D7";
+    cursor: pointer;
+}
+
+details[open] div {
+    padding: .5em 1em;
+    transition: .5s;
+    cursor: pointer;
+}
+.answer{
+    background-color: #fff;
+    color: black;
+    border: 2px solid tomato;
+    border-end-end-radius: 10px;
+    border-end-start-radius: 10px;
+}
+.answer span{
+    background-color: tomato;
+    color: white;
+    padding: 0 5px 3px 5px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.faq-title{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .faq-container{
+        padding: 20px;
+    }
+  }
